@@ -1,0 +1,129 @@
+/* =========================
+   FAQ SECTION STYLES
+========================= */
+
+.project-hero {
+    width: 100% !important;
+    height: 50vh !important;
+    background: url('/assets/images/slider14.jpg') !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+    position: relative !important;
+    background-attachment: initial !important;
+}
+
+.project-body {
+  padding: 100px 20px;
+  background: var(--primary);
+}
+
+.project-body .head {
+  text-align: center;
+}
+
+.project-body .title {
+  text-align: center;
+}
+
+.project-head {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.project-head h2 {
+  color: #fff;
+}
+
+.project-page .intro {
+  color: #fff;
+  max-width: 700px;
+  margin: 0 auto 50px;
+  line-height: 1.7;
+}
+
+.gallery {
+  padding: 100px 20px;
+}
+ 
+.project-page .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 40px;
+}
+
+.project-page .overlay {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.project-page .gallery:hover .overlay {
+    opacity: 1;
+}
+
+.project-page .container .gallery {
+    position: relative;
+    height: 350px;
+    /* background: url(/img/banner.jpg) no-repeat center/cover; */
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.project-page .container .gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.project-page .container .gallery h2,
+.project-page .container .gallery p {
+    color: #fff;
+}
+
+.project-page .gallery:hover .content {
+    bottom: 40px;
+}
+
+
+.project-page .content {
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    transition: 0.5s;
+}
+
+.project-page .content span {
+    margin-right: 20px;
+    background: var(--accent-amber);
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px){
+    .services .container {    
+        width: 100%;
+        padding: 0;
+    }
+    
+    .project-body {
+        background: #fff;
+        padding: 100px 20px;
+        text-align: center;
+    }
+
+    .project-hero h1 {
+        margin-left: 0;
+        margin-top: 200px;
+    }
+}

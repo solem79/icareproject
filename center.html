@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style type="text/css" media="all">
+    .wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 200px;
+      position: relative;
+      z-index: 1;
+      border: 1px solid blue
+    }
+      .row {
+        width: fit-content;
+        /* margin-top: -20px; */
+        margin: 0 auto;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 110px;
+      }
+      
+      .row span {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        border: 0.5px solid green;
+      }
+      
+      hr {
+        border: 1px solid red;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 100%;
+        transform: translateY(-50%);
+        margin: 0;
+        z-index: -1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <hr />
+      <div class="row">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+  </body>
+</html>

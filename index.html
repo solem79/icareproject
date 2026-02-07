@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>iCARE Roofing System — Premium Roofing Solutions in Accra, Ghana</title>
+
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="iCARE Roofing System in Accra, Ghana provides top-quality roofing installations, stone-coated tiles, aluminium sheets, gutters, parapets, and designed wood works with 50-year warranty. Residential, commercial & industrial roofing solutions.">
+  <meta name="keywords" content="iCARE Roofing, roofing Accra, roofing Ghana, stone-coated tiles, aluminium roofing, gutters, parapets, roof installation, roof maintenance, 50-year warranty">
+  <meta name="author" content="iCARE Roofing System">
+
+  <!-- Favicon -->
+  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.0/css/all.min.css">
+
+  <!-- GSAP for animations -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+  <!-- Netlify CMS (for admin page only) -->
+  <script src="https://unpkg.com/netlify-cms@^2.15.67/dist/netlify-cms.js"></script>
+  
+  <!-- Netlify CMS (for admin page only) -->
+  <script src="https://cdn.jsdelivr.net/npm/js-yaml@4/dist/js-yaml.min.js"></script>
+</head>
+<body>
+  
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="overlay">
+      <!-- Navbar -->
+      <div class="navbar" id="navbar">
+        <div class="logo">
+          <img src="assets/images/logo.jpg" alt="iCare Roofing Logo" />
+        </div>
+        <div id="menuBtn" onclick="menuToggle();">☰</div>
+        
+        <!-- Navigation Menu -->
+        <ul id="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="info.html">About</a></li>
+          <li><a href="service.html">services</a></li> 
+          <li><a href="feedback.html">Testimonial</a></li> 
+          <li><a href="project.html">Project</a></li> 
+          <li><a href="faq.html">FAQ</a></li> 
+          <li><a href="contact.html">Contact</a></li> 
+          <div id="closeBtn" onclick="menuToggle();">
+              <svg viewBox="0 0 24 24" width="32" height="32" fill="none"
+                   stroke="currentColor" stroke-width="2.6" stroke-linecap="round">
+                <path d="M5 5l14 14"/>
+                <path d="M19 5l-14 14"/>
+              </svg>
+          </div>
+        </ul>
+      </div>
+      
+      <div class="hero-slider" id="heroSlider">
+          <div class="overlay"></div>
+          <button class="slider-btn prev">&#10094;</button>
+          <button class="slider-btn next">&#10095;</button>
+          <div class="slider-dots"></div>
+      </div>
+      
+      <div class="text-box">
+        <h1>Durable Roofing Solutions in Ghana</h1>
+        <h2>Residential, Commercial & Industrial Projects</h2>
+        <p>
+          iCARE Roofing System delivers high-quality roofing installations, stone-coated tiles, rain gutters, parapets, and designed wood works — all with a <strong>50-year warranty</strong>.
+        </p>
+        <a href="https://wa.me/233507334119" class="btn">Get a Free Quote on WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="two-col" id="about">  
+    <div class="container">  
+      <div class="col-2 left">  
+        <div class="left-img1">  
+          <img src="assets/images/project25.jpg" width="100%" alt="iCARE Roofing installation project"/>  
+        </div>  
+        <div class="left-img2">  
+          <img src="assets/images/team1.jpg" width="100%" alt="iCARE Roofing repair work"/>  
+        </div>  
+      </div>  
+      <div class="col-2 right">  
+        <h3 class="head">About iCARE Roofing System</h3>  
+        <h1 class="title">Trusted Roofing Solutions in Ghana</h1>  
+        <p>iCARE Roofing system boasts Ghana's best-selling and highest quality stone-coated Euro Roofing sheets and PVC Rain gutter systems. Contact us today for more info and quotation</p>  
+        <p class="paraOne border">  
+          Our mission is to provide durable, affordable, and professional roofing services.  
+          Every project is completed on time using premium materials and skilled workmanship,  
+          giving homeowners and businesses peace of mind and long-lasting protection.  
+        </p>  
+        <div class="container margin">  
+          <div class="col-3">  
+            <h2 class="count" data-counter="1200">100</h2> 
+            <p>Projects Completed</p>  
+          </div>  
+          <div class="col-3"> 
+            <h2 class="count" data-counter="450">0</h2>  
+            <p>Satisfied Clients</p>  
+          </div>  
+          <div class="col-3">  
+            <h2 class="count" data-counter="50">0</h2>
+            <p>Years of Warranty on Work</p>  
+          </div>  
+        </div>  
+      </div>  
+    </div>  
+  </section>
+
+  <!-- Experience / Values -->
+  <section class="experience">
+      <h3 class="head">Why Choose iCare Roofing System</h3>
+      <h1 class="title">Durable Roofing Solutions, Skilled Installation & Reliable Service</h1>
+      
+      <div class="container">
+          <div class="col-2">
+            <div class="exp-icon">
+                <span>
+                    <i class="fa-solid fa-shield"></i>
+                </span>
+            </div>
+            <div class="exp-text">
+                <h3>Quality Roofing Materials</h3>
+                <p>
+                    We use high-quality roofing sheets and accessories designed to withstand harsh weather conditions,
+                    ensuring long-lasting protection and excellent finishing for every project.
+                </p>
+            </div>
+          </div>
+  
+          <div class="col-2">
+              <div class="exp-icon">
+                  <span>
+                      <i class="fa-solid fa-helmet-safety"></i>
+                  </span>
+              </div>
+              <div class="exp-text">
+                  <h3>Professional Installation</h3>
+                  <p>
+                      Our experienced roofing technicians deliver neat, precise, and secure installations
+                      for residential, commercial, and industrial buildings.
+                  </p>
+              </div>
+          </div>
+  
+          <div class="col-2">
+              <div class="exp-icon">
+                  <span>
+                      <i class="fa-solid fa-clock"></i>
+                  </span>
+              </div>
+              <div class="exp-text">
+                  <h3>Timely Project Delivery</h3>
+                  <!-- <p>
+                      We understand the value of time. Our team works efficiently to complete roofing projects
+                      on schedule without compromising quality or safety.
+                  </p> --> 
+                  <p>Whether for small projects or large-scale constructions, our logistics ensure materials are delivered on time in all of Ghana.</p>
+              </div>
+          </div>
+  
+          <div class="col-2">
+              <div class="exp-icon">
+                  <span>
+                      <i class="fa-solid fa-house-chimney"></i>
+                  </span>
+              </div>
+              <div class="exp-text">
+                  <h3>New Roofing & Renovations</h3>
+                  <p>
+                      From new roof installations to repairs and replacements, we provide reliable solutions
+                      tailored to your building type and budget.
+                  </p>
+              </div>
+          </div>
+  
+          <div class="col-2">
+              <div class="exp-icon">
+                  <span>
+                      <i class="fa-solid fa-headset"></i>
+                  </span>
+              </div>
+              <div class="exp-text">
+                  <h3>Customer-Centered Service</h3>
+                  <p>
+                      We listen to your needs, offer expert advice, and keep you informed throughout the project,
+                      ensuring complete satisfaction from start to finish.
+                  </p>
+              </div>
+          </div>
+  
+          <div class="col-2">
+              <div class="exp-icon">
+                  <span>
+                      <i class="fa-solid fa-sack-dollar"></i>
+                  </span>
+              </div>
+              <div class="exp-text">
+                  <h3>Affordable & Transparent Pricing</h3>
+                  <p>
+                      Our pricing is clear, fair, and competitive, giving you excellent value for money
+                      with no hidden charges.
+                  </p>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!-- Services / Categories -->
+  <section class="services" id="services">
+    <h3 class="head">Our Services</h3>
+    <h1 class="title">Professional Roofing Solutions in Ghana</h1>
+  
+    <div class="container">
+  
+      <div class="col-4">
+        <div class="serv-icon">
+          <i class="fa-solid fa-house-chimney fa-5x"></i>
+        </div>
+        <div class="serv-text">
+          <h2>Roof Installation</h2>
+          <p>Complete roofing installations using durable stone-coated Eurotiles, and classic shingles for homes, offices, and industrial buildings — all backed by a <strong>50-year warranty</strong>.</p>
+        </div>
+      </div>
+  
+      <div class="col-4">
+        <div class="serv-icon">
+          <i class="fa-solid fa-tools fa-5x"></i>
+        </div>
+        <div class="serv-text">
+          <h2>Roof Repairs & Maintenance</h2>
+          <p>Expert repairs for leaks, damaged sheets, and worn roofs, plus scheduled maintenance to maximize the lifespan and performance of your roofing system.</p>
+        </div>
+      </div>
+  
+      <div class="col-4">
+        <div class="serv-icon">
+          <i class="fa-solid fa-box fa-5x"></i>
+        </div>
+        <div class="serv-text">
+          <h2>Wholesale Roofing Supply</h2>
+          <p>Supplying premium stone-coated Eurotiles, and roofing accessories to contractors, builders, and resellers in Ghana</p>
+        </div>
+      </div>
+  
+      <div class="col-4">
+        <div class="serv-icon">
+          <i class="fa-solid fa-hammer fa-5x"></i>
+        </div>
+        <div class="serv-text">
+          <h2>Roof Renovation & Upgrades</h2>
+          <p>Upgrade or replace old roofs with modern stone-coated roofing solutions for enhanced durability, energy efficiency, and aesthetic appeal.</p>
+        </div>
+      </div>
+  
+      <div class="col-4">
+        <div class="serv-icon">
+          <i class="fa-solid fa-shield fa-5x"></i>
+        </div>
+        <div class="serv-text">
+          <h2>Roof Inspections</h2>
+          <p>Professional inspections to identify potential roofing issues early, ensure safety, and provide clear recommendations for repairs or future upgrades.</p>
+        </div>
+      </div>
+  
+      <div class="col-4">
+        <div class="serv-icon">
+          <i class="fa-solid fa-comments-dollar fa-5x"></i>
+        </div>
+        <div class="serv-text">
+          <h2>Roofing Consultancy</h2>
+          <p>Expert advice on roofing materials, stone-coated Eurotiles selection, project planning, and maintenance strategies tailored for buildings in Ghana.</p>
+        </div>
+      </div>
+  
+      <div class="cta-center" style="margin-top: 40px;">
+        <p>Visit us at: <strong>Sarpeima, Ghana</strong> | Call/WhatsApp: <a href="tel:+233507334119">+233 50 733 4119</a></p>
+        <a href="https://wa.me/233507334119" class="btn">
+          Get Your Free Roofing Quote on WhatsApp
+        </a>
+      </div>
+  
+    </div>
+  </section>
+  
+  <!-- Feature (Roofing Packages / Trade Offer) -->
+  <section class="feature">
+    <h3 class="head">Roofing Packages</h3>
+    <h1 class="title">Custom Solutions for Homes, Businesses & Developers in Ghana</h1>
+    <p>
+      iCARE Roofing System offers tailored roofing packages for residential, commercial, and industrial clients in Ghana.  
+      Choose from installation, repair, maintenance, renovation, and inspection packages — using premium stone-coated roofs, and Eurotiles with professional workmanship.
+    </p>
+    <a href="https://wa.me/233507334119" class="btn-icon">
+      Request Your Roofing Package on WhatsApp <i class="fab fa-whatsapp"></i>
+    </a>
+    <p style="margin-top:10px;">
+      Visit us at: Sarpeima | Call/WhatsApp: <a href="tel:+233507334119" style="text-decoration: none; color: #fff">+233 50 733 4119</a>
+    </p>
+  </section>
+  
+  <!-- Team -->
+  <section class="team" id="team">
+    <h3 class="head">Our Team</h3>
+    <h1 class="title">Meet iCARE Roofing System Experts</h1>
+  
+    <div class="container">
+      <div class="col-4">
+        <div class="team-img">
+          <img src="assets/images/team1.jpg" alt="Managing Director - iCARE Roofing" />
+          <div class="overlay">
+            <a href="https://www.facebook.com/share/1CG8kgda3z/" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://vm.tiktok.com/ZS9JdJLF6rqwv-GRGEf/" class="social-icon"><i class="fab fa-tiktok"></i></a>
+            <a href="https://www.instagram.com/ugoo_chukwu__?igsh=MWU4ZzFwdHZnMHV1bQ==" class="social-icon"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="team-text">
+          <p>CEO iCare Roofing System</p>
+          <h4>Francis Ugochukwu Ezeh</h4>
+        </div>
+      </div>
+      
+      <div class="col-4">
+        <div class="team-img">
+          <img src="assets/images/team2.jpg" alt="Customer Support - iCARE Roofing" />
+          <div class="overlay">
+            <a href="https://www.facebook.com/share/1CG8kgda3z/" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://vm.tiktok.com/ZS9JdJLF6rqwv-GRGEf/" class="social-icon"><i class="fab fa-tiktok"></i></a>
+            <a href="https://www.instagram.com/ugoo_chukwu__?igsh=MWU4ZzFwdHZnMHV1bQ==" class="social-icon"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="team-text">
+          <p>Manager and Site Inspector </p>
+          <h4>Michael Emeka Ezeh</h4>
+        </div>
+      </div>
+      
+      <div class="col-4">
+        <div class="team-img">
+          <img src="/assets/images/team3.jpg" alt="Site Supervisor - iCARE Roofing" />
+          <div class="overlay">
+            <a href="https://www.facebook.com/share/1CG8kgda3z/" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://vm.tiktok.com/ZS9JdJLF6rqwv-GRGEf/" class="social-icon"><i class="fab fa-tiktok"></i></a>
+            <a href="https://www.instagram.com/ugoo_chukwu__?igsh=MWU4ZzFwdHZnMHV1bQ==" class="social-icon"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="team-text">
+          <p>Installer and Carpenter</p>
+          <h4>Sunday</h4>
+        </div>
+      </div>
+      
+      <div class="col-4">
+        <div class="team-img">
+          <img src="assets/images/team4.jpg" alt="Project & Warehouse Manager - iCARE Roofing" />
+          <div class="overlay">
+            <a href="https://www.facebook.com/share/1CG8kgda3z/" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://vm.tiktok.com/ZS9JdJLF6rqwv-GRGEf/" class="social-icon"><i class="fab fa-tiktok"></i></a>
+            <a href="https://www.instagram.com/ugoo_chukwu__?igsh=MWU4ZzFwdHZnMHV1bQ==" class="social-icon"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="team-text">
+          <p>Installer and Carpenter</p>
+          <h4>Kojo</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== Gallery Section ====== -->
+  <section class="gallery" id="gallery">
+    <h3 class="head">Our Projects & Materials</h3>
+    <h1 class="title">Stone-Coated Tiles, Aluminium Roofs & Completed Projects</h1>
+  
+    <!-- Intro text -->
+    <div class="gallery-intro">
+      <p class="intro">
+        This gallery showcases the roofing materials we supply and the roofing projects we have successfully completed for homeowners, 
+        contractors, and businesses in Ghana. Each image or video reflects our quality products, professional installation, 
+        and long-lasting roofing solutions.
+      </p>
+    </div>
+  
+    <!-- Filter Buttons -->
+    <div class="filter-btns">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="products">Roofing Sheets</button>
+      <button class="filter-btn" data-filter="projects">Completed Projects</button>
+    </div>
+  
+    <!-- Gallery container (dynamic images) -->
+    <div class="container" id="galleryContainer">
+  
+      <!-- ====== STATIC IMAGES ====== -->
+  
+      <!-- Products -->
+      <div class="col-3 filter-item products">
+        <a href="assets/images/slider11.jpg" class="lightbox">
+          <img src="assets/images/slider11.jpg" alt="Residential roofing project in Delta" loading="lazy"/>
+        </a>
+        <div class="gallery-info">
+          <h3>Stone-coated Roofing Sheet</h3>
+          <p>Stone-coated roofing sheets made of durable, lightweight, and stylish metal sheets coated with natural stone granules, providing long-lasting protection and aesthetic appeal for homes.</p>
+        </div>
+        </div>
+  
+      <div class="col-3 filter-item products">
+        <a href="/assets/images/slider38.jpg" class="lightbox">
+          <img src="/assets/images/slider38.jpg" alt="Commercial building roofing installation" loading="lazy"/>
+        </a>
+        <div class="gallery-info">
+          <h3>Bond Roofing Sheet</h3>
+          <p>Bond roofing sheets are durable, lightweight metal sheets with a wave-like profile that allows for efficient water flow, making them suitable for both residential and commercial roofing.</p>
+        </div>
+      </div>
+      
+      <!-- Projects -->
+      <div class="col-3 filter-item projects">
+        <a href="/assets/images/project1.jpg" class="lightbox">
+          <img src="/assets/images/project1.jpg" alt="Milano stone-coated roofing sheet" loading="lazy"/>
+        </a>
+        
+        <div class="gallery-info">
+          <h3>Residential Roofing Project</h3>
+          <p>Roofing Project at Ekuropon, Ghana 🇬🇭</p>
+        </div>
+      </div>
+  
+      <div class="col-3 filter-item projects">
+        <a href="/assets/images/project2.jpg" class="lightbox">
+          <img src="/assets/images/project2.jpg" alt="Shingle stone-coated roofing sheet" loading="lazy"/>
+        </a>
+        <div class="gallery-info">
+          <h3>Residential Roofing Project</h3>
+          <p>Completed Residential Roofing Project in Ghana 🇬🇭</p>
+        </div>
+      </div>
+      
+      <div class="col-3 filter-item projects">
+        <div class="video-wrapper">
+          <iframe
+            src="https://www.youtube.com/embed/3ex_hE-l514"
+            title="Roofing Installation Video"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </div>
+
+  <div class="gallery-info">
+    <h3>Roofing Installation Video</h3>
+    <p>Live roofing installation project in Ghana 🇬🇭</p>
+  </div>
+</div>
+  
+      <!-- Accessories -->
+      <!-- <div class="col-3 filter-item accessories">
+        <a href="images/water-collector.jpg" class="lightbox">
+          <img src="images/water-collector.jpg" alt="Roof water collector" loading="lazy"/>
+        </a>
+        <div class="gallery-info">
+          <h3>Roof Water Collector</h3>
+          <p>Efficiently directs rainwater from the roof into gutters and drainage systems.</p>
+        </div>
+      </div> -->
+  
+      <!-- <div class="col-3 filter-item accessories">
+        <a href="images/sealant.jpg" class="lightbox">
+          <img src="images/sealant.jpg" alt="Roof flashing" loading="lazy"/>
+        </a>
+        <div class="gallery-info">
+          <h3>Roof Flashing</h3>
+          <p>Seals roof joints and edges to stop water penetration and corrosion.</p>
+        </div>
+      </div> -->
+  
+      <!-- ====== DYNAMIC UPLOADS ======
+      Franciz can add new images/videos to the `uploads/` folder
+      These will appear automatically below the static gallery -->    </div>
+  
+    <!-- Call To Action -->
+    <div class="gallery-cta">
+      <p>See more projects or get a custom roofing solution today!</p>
+      <a href="https://wa.me/233507334119" class="btn-icon">
+        Chat on WhatsApp <i class="fab fa-whatsapp"></i>
+      </a>
+    </div>
+  </section>
+  
+  <!-- Testimonials -->  
+  <section class="testimonial" id="testimonial">  
+    <h3 class="head">Client Feedback</h3>  
+    <h1 class="title">Trusted Roofing Experts in Ghana</h1>  
+    <p class="intro">  
+      At <strong>iCARE Roofing System</strong>, we install and supply high-quality stone-coated roofing tiles, aluminium roofing sheets, rain gutters, parapets, and designed wood works in Ghana.  
+      Here’s what our clients say about working with us.  
+    </p>  
+  
+    <div class="container">  
+  
+      <!-- Testimonial 1 -->  
+      <div class="col-3">  
+        <!-- 5-Star Rating -->
+        <div class="star-rating" style="font-size: 24px; color: gold;">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star-half-stroke"></i>
+        </div>
+  
+        <div class="comment">  
+          <div class="quote">  
+            <h3>J</h3>  
+            <i class="fas fa-quote-left quote-icon"></i>  
+          </div>  
+          <p>  
+            “iCARE Roofing System installed stone-coated roofing tiles on my house in Accra.  
+            The workmanship was neat, professional, and completed on schedule. Highly recommended.”  
+          </p>  
+        </div>  
+  
+        <div class="col-3-flex">  
+          <div class="test-info">  
+            <div class="rating"></div>
+            <h3>James Owusu</h3>  
+            <span>East Legon, Accra</span>  
+          </div>  
+        </div>  
+      </div>  
+  
+      <!-- Testimonial 2 -->  
+      <div class="col-3">  
+        <div class="star-rating" style="font-size: 24px; color: gold;">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+        </div>
+  
+        <div class="comment">  
+          <div class="quote">  
+            <h2>A</h2>  
+            <i class="fas fa-quote-left quote-icon"></i>  
+          </div>  
+          <p>  
+            “We purchased stone-coated tiles and rain gutters from iCARE Roofing System.  
+            The materials were high quality, and their team gave us helpful installation guidance.”  
+          </p>  
+        </div>  
+  
+        <div class="col-3-flex">  
+          <div class="test-info">  
+            <div class="rating"></div>
+            <h3>Akosua Mensah</h3>  
+            <span>Madina, Sarpeima</span>  
+          </div>  
+        </div>  
+      </div>  
+  
+      <!-- Testimonial 3 -->  
+      <div class="col-3">  
+        <div class="star-rating" style="font-size: 24px; color: gold;">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+  
+        <div class="comment">  
+          <div class="quote">  
+            <h2>K</h2>  
+            <i class="fas fa-quote-left quote-icon"></i>  
+          </div>  
+          <p>  
+            “Fast delivery, excellent support, and durable roofing materials.  
+            iCARE Roofing System handled our commercial roofing project professionally.”  
+          </p>  
+        </div>  
+  
+        <div class="col-3-flex">  
+          <div class="test-info">  
+            <div class="rating"></div>
+            <h3>Kwame Boateng</h3>  
+            <span>Spintex Road, Accra</span>  
+          </div>  
+        </div>  
+      </div>  
+    </div>  
+  </section>
+    
+  <!-- Contact / CTA -->
+  <section class="feature-two" id="contact">
+    <div class="overlay">
+      <div class="center">
+        <h3>Ready to order roofing materials in bulk or small quantities in Ghana?</h3> 
+        <a href="https://wa.me/233507334119" class="btn-icon">
+          Chat on WhatsApp to Order <i class="fab fa-whatsapp"></i>
+        </a>
+        <p style="margin-top:10px;">Visit us: Sarpeima, Ghana | Call/WhatsApp: <a href="tel:+233507334119">+233 50 733 4119</a></p>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Google Map -->
+  <section class="map-container location">
+    <iframe 
+      title="iCARE Roofing System location - Accra"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3972.037325563381!2d-0.1726066846977187!3d5.606131196987744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9e7f0bcae5ff%3A0x6b123456789abcd!2sZoom%20Lion%20Warehouse%2C%20Accra%2C%20Ghana!5e0!3m2!1sen!2sgh!4v1717171717171" 
+      allowfullscreen="" 
+      loading="lazy" 
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </section>
+
+  <!-- ===== FAQ SECTION ===== -->
+  <section class="faq-page" id="faq">
+    <h3 class="head">FAQ</h3>
+    <h1 class="title">Frequently Asked Questions</h1>
+    <p class="intro">
+      Find quick answers about our stone-coated roofing tiles, aluminium sheets, rain gutters, parapets, wood works, installation services, warranty, and project support in Ghana.
+    </p>
+  
+    <div class="container">
+      <div class="faq-wrapper">
+  
+        <!-- FAQ ITEM 1 -->
+        <div class="faq-item">
+          <button class="faq-question">
+            What roofing products and services do you offer?
+            <span class="arrow">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              iCARE Roofing System supplies and installs stone-coated roofing tiles, aluminium roofing sheets, rain gutters, parapets, and designed wood works.  
+              We handle both residential and commercial roofing projects in Ghana.
+            </p>
+          </div>
+        </div>
+  
+        <!-- FAQ ITEM 2 -->
+        <div class="faq-item">
+          <button class="faq-question">
+            Do you offer roofing installation services?
+            <span class="arrow">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Yes. We provide full professional roofing installation for homes, offices, and industrial buildings, including stone-coated tiles, aluminium roofs, gutters, and parapets.
+            </p>
+          </div>
+        </div>
+  
+        <!-- FAQ ITEM 3 -->
+        <div class="faq-item">
+          <button class="faq-question">
+            Do you supply roofing materials only?
+            <span class="arrow">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Yes. Customers and contractors can also purchase our roofing materials separately, including stone-coated tiles, aluminium sheets, gutters, and accessories.
+            </p>
+          </div>
+        </div>
+  
+        <!-- FAQ ITEM 4 -->
+        <div class="faq-item">
+          <button class="faq-question">
+            Do your roofing products come with a warranty?
+            <span class="arrow">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Yes. Our stone-coated roofing tiles and installations come with up to a <strong>50-year warranty</strong>, giving you long-term peace of mind and protection.
+            </p>
+          </div>
+        </div>
+  
+        <!-- FAQ ITEM 5 -->
+        <div class="faq-item">
+          <button class="faq-question">
+            Where are you located?
+            <span class="arrow">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              We are located at Sarpeima, Ghana.  
+              We serve customers in the whole of Ghana.
+            </p>
+          </div>
+        </div>
+  
+        <!-- FAQ ITEM 6 -->
+        <div class="faq-item">
+          <button class="faq-question">
+            How long does a roofing project take?
+            <span class="arrow">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Project timelines depend on roof size and material type, but most residential roofing installations are completed within a few days to one week.
+            </p>
+          </div>
+        </div>
+  
+        <!-- FAQ ITEM 7 -->
+        <div class="faq-item">
+          <button class="faq-question">
+            Can you help me choose the right roofing type?
+            <span class="arrow">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Absolutely. Our team will recommend the best roofing option based on your building type, budget, design preference, and durability needs.
+            </p>
+          </div>
+        </div>
+  
+        <!-- FAQ ITEM 8 -->
+        <div class="faq-item">
+          <button class="faq-question">
+            How do I request a quote or inspection?
+            <span class="arrow">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              You can request a free quote or inspection by calling or chatting with us on WhatsApp.  
+              Our team will respond quickly and guide you through the process.
+            </p>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <section class="footer" id="footer">
+    <div class="container margin">
+  
+      <div class="col-4 about">
+        <h3>ABOUT</h3> 
+        <p>
+          iCARE Roofing System is a trusted roofing service provider in Ghana,
+          delivering reliable roof installations, repairs, maintenance, and protective
+          roofing solutions for residential, commercial, and industrial buildings.  
+          We are committed to quality workmanship, safety, and long-lasting results.
+        </p>
+      </div>
+  
+      <div class="col-4 links">
+        <h3>Quick Links</h3> 
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#gallery">Products</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </div>
+  
+      <div class="col-4 service-list">
+        <h3>Our Services</h3> 
+        <p>Roof Installation</p>
+        <p>Roof Repairs & Maintenance</p>
+        <p>Stone-Coated & Aluminium Roofing</p>
+        <p>Gutters & Drainage Solutions</p>
+        <p>Residential & Commercial Roofing</p>
+      </div>
+  
+      <div class="col-4 touch">
+        <h3>Get In Touch</h3> 
+        <p><i class="fa-solid fa-map-marker-alt"></i> Sarpeima, Ghana</p>
+        <a href="tel:+233507334119">
+          <i class="fa-solid fa-phone"></i> +233 50 733 4119
+        </a>
+        <a href="mailto:info@icareoofing.com">
+          <i class="fa-solid fa-envelope"></i> frankyaw429@gmail.com
+        </a>
+      </div>
+  
+    </div>
+  </section>
+  
+  <section class="wrapper">
+    <hr />
+    <div class="social-links">
+      <a href="https://www.facebook.com/share/1CG8kgda3z/" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://vm.tiktok.com/ZS9JdJLF6rqwv-GRGEf/" class="social-icon"><i class="fab fa-tiktok"></i></a>
+      <a href="https://www.instagram.com/ugoo_chukwu__?igsh=MWU4ZzFwdHZnMHV1bQ==" class="social-icon"><i class="fab fa-instagram"></i></a>
+    </div>
+  </section>
+  
+  <section class="copyright">
+    <p>
+      &copy; iCARE Roofing System 2026.  
+      All rights reserved | Powered by SolemDigital
+    </p>
+  </section>
+  
+  <!-- WhatsApp -->
+  <a href="https://wa.me/233507334119" class="whatsapp-float" target="_blank">
+    <img src="assets/images/whatsapp.webp" alt="WhatsApp" loading="lazy" />
+  </a>
+ 
+  <div class="overlay-wrapper" onclick="closeWrapperT()"></div>
+ 
+  <!-- SCRIPTS --> 
+  <script src="js/nav.js" defer></script>
+  <script src="js/slider.js" defer></script>
+  <script src="js/gallery.js" defer></script>
+  <script src="js/counter.js" defer></script>
+  <script src="js/faq.js" defer></script>
+  <script src="js/main.js" defer></script>
+
+  
+</body>
+</html>
+

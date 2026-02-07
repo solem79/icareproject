@@ -1,0 +1,45 @@
+/* =========================
+   FAQ SECTION STYLES
+========================= */
+
+.faq-hero {
+    width: 100% !important;
+    height: 50vh !important;
+    background: url('/assets/images/project2.jpg') !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+    position: relative !important;
+    background-attachment: initial !important;
+}
+
+.faq-body {
+  padding: 100px 20px;
+}
+
+.faq-body .head {
+  text-align: center;
+}
+
+.faq-body .title {
+  text-align: center;
+}
+
+.faq-head {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.faq-head h2 {
+  color: #fff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .faq-body {
+    padding: 100px 20px !important;
+  }
+
+}

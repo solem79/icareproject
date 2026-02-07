@@ -1,0 +1,52 @@
+[
+  {
+    "fileUrl": "https://res.cloudinary.com/dqsnwbzuh/image/upload/v1769840876/gallery/project1.jpg",
+    "title": "Residential Roofing",
+    "desc": "Roof installed in Accra",
+    "category": "projects",
+    "type": "gallery"
+  },
+  {
+    "fileUrl": "https://res.cloudinary.com/dqsnwbzuh/image/upload/v1769790218/slider10_k6yam1.jpg",
+    "title": "Slider Image",
+    "desc": "Our latest project",
+    "category": "slider",
+    "type": "slider"
+  },
+  {
+    "fileUrl": "https://res.cloudinary.com/dqsnwbzuh/image/upload/v1769790218/slider10_k6yam1.jpg",
+    "title": "Slider Image",
+    "desc": "Our latest project",
+    "category": "slider",
+    "type": "slider"
+  },
+  {
+    "fileUrl": "https://res.cloudinary.com/dqsnwbzuh/image/upload/v1769790218/slider10_k6yam1.jpg",
+    "title": "Slider Image",
+    "desc": "Our latest project",
+    "category": "slider",
+    "type": "slider"
+  },
+  {
+    "fileUrl": "https://res.cloudinary.com/dqsnwbzuh/image/upload/v1769790218/slider10_k6yam1.jpg",
+    "title": "Slider Image",
+    "desc": "Our latest project",
+    "category": "slider",
+    "type": "slider"
+  },
+  {
+    "fileUrl": "https://res.cloudinary.com/dqsnwbzuh/image/upload/v1769790218/slider10_k6yam1.jpg",
+    "title": "Slider Image",
+    "desc": "Our latest project",
+    "category": "slider",
+    "type": "slider"
+  },
+  {
+    "fileUrl": "https://res.cloudinary.com/dqsnwbzuh/image/upload/v1769790218/slider10_k6yam1.jpg",
+    "title": "Slider Image",
+    "desc": "Our latest project",
+    "category": "slider",
+    "type": "slider"
+  }
+]
+
